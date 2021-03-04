@@ -1,0 +1,7 @@
+version: "2"
+services:
+  chrome:
+    image: euknyaz/ngnix-chrome-supervisord:latest
+    ports:
+      - "9223:9223"
+      - "9222:9222"
